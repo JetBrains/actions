@@ -1,5 +1,6 @@
 name: 'Find and close stale PRs'
 on:
+  workflow_call:
   schedule:
     - cron: '* 12 * * *'
 
