@@ -9,7 +9,6 @@ on:
 jobs:
   tag:
     runs-on: ubuntu-latest
-    if: github.repository != 'jetbrains/actions'
     steps:
     - uses: actions/checkout@v4
       with:
