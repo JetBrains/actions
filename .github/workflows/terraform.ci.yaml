@@ -8,6 +8,7 @@ on:
 
 jobs:
   fmt:
+    if: github.repository != 'jetbrains/actions'
     runs-on: ubuntu-latest
     steps:
       - name: 'Checkout'
@@ -18,6 +19,7 @@ jobs:
         run: terraform fmt -check -recursive
 
   validate:
+    if: github.repository != 'jetbrains/actions'
     runs-on: ubuntu-latest
     steps:
       - name: 'Checkout'
@@ -30,6 +32,7 @@ jobs:
         run: terraform validate -no-color
 
   docs:
+    if: github.repository != 'jetbrains/actions'
     runs-on: ubuntu-latest
     steps:
       - name: 'Checkout'
@@ -46,6 +49,7 @@ jobs:
           find-dir: .
 
   sec:
+    if: github.repository != 'jetbrains/actions'
     runs-on: ubuntu-latest
     steps:
       - name: 'Checkout'
