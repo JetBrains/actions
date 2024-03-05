@@ -2,6 +2,9 @@
 ## [Unreleased]
 
 
+<a name="v0.2.0"></a>
+## [v0.2.0] - 2024-03-05
+
 <a name="v0.1.0"></a>
 ## v0.1.0 - 2024-02-19
 ### Bug Fixes
@@ -15,4 +18,5 @@
 - Merge pull request [#1](/issues/1) from JetBrains/fix/add-missing-event
 
 
-[Unreleased]: /compare/v0.1.0...HEAD
+[Unreleased]: /compare/v0.2.0...HEAD
+[v0.2.0]: /compare/v0.1.0...v0.2.0
